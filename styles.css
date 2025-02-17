@@ -1,0 +1,46 @@
+/* helper style - css box model */
+.border-blue {
+    border: 1px solid blue;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0077b6;
+    user-select: none;
+}
+
+#hero {
+    background-image: url("./images/galaxy.webp");
+    background-size: cover;
+    border: 1px solid transparent;
+    padding: 40px;
+}
+
+img {
+    width: 150px;
+}
+
+#text-underline {
+    border-bottom: 4px solid #ffffff;
+}
+
+#btn {
+    padding: 10px 12px;
+    width: 90px;
+    background: #ffffff;
+    border: 1px solid transparent;
+    color: inherit;
+    font-family: inherit;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#btn:focus {
+    outline: 3px solid #0077b6;
+}
+
+#btn:hover {
+    border: 1px solid #0077b6;
+}
